@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+meridianedge/__init__.py
+meridianedge.egg-info/PKG-INFO
+meridianedge.egg-info/SOURCES.txt
+meridianedge.egg-info/dependency_links.txt
+meridianedge.egg-info/requires.txt
+meridianedge.egg-info/top_level.txt

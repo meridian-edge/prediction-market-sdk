@@ -1,3 +1,38 @@
+Metadata-Version: 2.4
+Name: meridianedge
+Version: 0.1.0
+Summary: Prediction market consensus data from multiple regulated markets
+Home-page: https://meridianedge.io
+Author: Meridian Edge
+Author-email: support@meridianedge.io
+License: MIT
+Project-URL: Documentation, https://meridianedge.io/docs.html
+Project-URL: Dashboard, https://meridianedge.io/dashboard.html
+Project-URL: Source, https://github.com/meridian-edge/prediction-market-sdk
+Keywords: prediction markets consensus probability sports finance api
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # Meridian Edge — Prediction Market Consensus SDK
 
 Real-time consensus probabilities aggregated from multiple regulated prediction markets. One API, one number per event.
@@ -99,23 +134,10 @@ Every `consensus()` response item includes:
 | `sparkline` | array | 6 recent values for trend visualization |
 | `ts` | string | ISO 8601 timestamp |
 
-## AI Platform Integrations
-
-Use Meridian Edge consensus data directly inside major AI platforms — no code required:
-
-| Platform | Link | Notes |
-|----------|------|-------|
-| **ChatGPT** | [Open Custom GPT](https://chatgpt.com/g/g-69c5cf29be388191aeaaf3159cd41697-prediction-market-consensus) | No setup — just open and ask |
-| **Claude** | [MCP install guide](https://github.com/meridian-edge/meridian-edge-mcp) | Claude Desktop / Cursor via MCP |
-| **Gemini** | [Open Gem](https://gemini.google.com/gem/1aSpfo0atq00TWFEjDJLytxzsnqTdqHjJ) | No setup — just open and ask |
-
----
-
 ## Links
 
 - [Dashboard](https://meridianedge.io/dashboard.html) — free, no signup
 - [API Docs](https://meridianedge.io/docs.html)
-- [AI Integrations](https://meridianedge.io/agents.html)
 - [Widget](https://meridianedge.io/widget.html) — embeddable, free
 
 ## Data Coverage
