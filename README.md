@@ -8,6 +8,37 @@ Real-time consensus probabilities aggregated from multiple regulated prediction 
 pip install meridianedge
 ```
 
+## Try This Now
+
+```python
+from meridianedge import MeridianEdge
+
+me = MeridianEdge()  # Free — no key needed for demo
+
+# What do prediction markets think about tonight's games?
+for event in me.consensus(sport="NBA", limit=3):
+    print(f"{event['event_name']}")
+    print(f"  Consensus: {event['consensus_prob']:.0%}")
+    print(f"  Sources: {event['n_platforms']} regulated markets")
+    print(f"  Confidence: {event['confidence']}")
+    print()
+```
+
+Output:
+```
+Lakers vs Celtics
+  Consensus: 62%
+  Sources: 5 regulated markets
+  Confidence: HIGH
+
+Nuggets vs Warriors
+  Consensus: 54%
+  Sources: 4 regulated markets
+  Confidence: MEDIUM
+```
+
+Get your free API key at [meridianedge.io](https://meridianedge.io) — no credit card, 100 calls/day.
+
 ## Quick Start
 
 ```python
